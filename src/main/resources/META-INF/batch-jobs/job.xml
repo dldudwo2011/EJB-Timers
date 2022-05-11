@@ -1,0 +1,9 @@
+<job id="myJob" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+    <step id="downloadFileStep" next="importCsvData">
+        <batchlet ref="downloadManager"></batchlet>
+    </step>
+
+    <step id="importCsvData">
+            <batchlet ref="currentCasesByLocalGeographicAreaImportBatchlet"></batchlet>
+    </step>
+</job>

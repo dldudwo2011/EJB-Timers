@@ -1,0 +1,11 @@
+### Should return "Edmonton - Abbottsfield"
+GET http://localhost:8080/webapi/CurrentCasesByLocalGeographicAreas/contains?longitude=-113.3926722&latitude=53.5660189
+
+### Should return "Edmonton - Bonnie Doon"
+GET http://localhost:8080/webapi/CurrentCasesByLocalGeographicAreas/contains?longitude=-113.4595356&latitude=53.5206321
+
+### Should return "Edmonton - Castle Downs"
+GET http://localhost:8080/webapi/CurrentCasesByLocalGeographicAreas/contains?longitude=-113.5226723&latitude=53.615731
+
+### Should return "Edmonton - Duggan"
+GET http://localhost:8080/webapi/CurrentCasesByLocalGeographicAreas/contains?longitude=-113.505559&latitude=53.4751928
